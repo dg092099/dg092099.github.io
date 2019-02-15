@@ -1,0 +1,139 @@
+@charset 'utf-8';
+
+/*
+    layout1.css
+    Main css file for the portfolio.
+    
+    Name:           Dillon Geier
+    Date Authored:  02/05/2019
+    Last Updated:   02/08/2019
+*/
+
+/* Body */
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+body {
+    max-width: 1024px;
+    min-width: 650px;
+    width: 95%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+    padding: 0px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+/* Nav */
+nav {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul {
+    list-style: none;
+    text-indent: 0px;
+    
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+nav ul a {
+    display: block;
+    float: left;
+    width: 25%;
+    
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+
+/* Header */
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 0px;
+}
+
+/* Aside */
+aside {
+    float: left;
+    width: 25%;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+aside p {
+    margin-left: 5px;
+}
+
+.asideHeader{
+    text-align: center;
+    display: block;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* Article */
+article {
+    padding-left: 7px;
+    padding-right: 7px;
+    line-height: 1.2em;
+}
+
+article p {
+    text-indent: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    clear: both;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer address {
+    display: inline;
+}
+
+/* Misc. */
+img {
+    width: 16%;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+article {
+    margin-top: 0px;
+}

@@ -1,0 +1,46 @@
+@charset 'utf-8';
+/*
+    Black and white color scheme. Not meant for deployment.
+    
+    Name:           Dillon Geier
+    Date Authored:  02/05/2019
+    Last Updated:   02/05/2019
+*/
+
+/* ES */
+html {
+    background-color: white;
+}
+
+/* Base */
+body {
+    border: thin solid black;
+}
+aside {
+    outline: thin solid black;
+}
+aside h2 {
+    border-bottom: thin solid black;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+}
+footer a:link, footer a:visited {
+    color: white;
+}
+
+footer a:active {
+    color: #CCC;
+}
+
+/* Navigation */
+nav ul a {
+    background-color: black;
+    color: white;
+}
+nav ul a:hover {
+    background-color: #444;
+}

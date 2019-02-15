@@ -1,0 +1,60 @@
+@charset 'utf-8';
+/*
+    Color Scheme 2.
+    Refer Design/CS Candidate 2.png
+    Notes: Adjusted to work better. Still don't quite like the header.
+    
+    Name:           Dillon Geier
+    Date Authored:  02/08/2019
+    Last Updated:   02/08/2019
+*/
+
+/* ES */
+html {
+    background-color: #78777F;
+}
+
+/* Base */
+body {
+    border: thin solid #3030db;
+    background-color: #DDD;
+}
+
+aside {
+    outline: thin solid #3030db;
+    background-color: white;
+}
+
+aside h2 {
+    border-bottom: thin solid #3030db;
+}
+
+/* Header */
+header {
+    background-color: #3030db;
+    color: #bae1ff;
+}
+
+/* Footer */
+footer {
+    background-color: #5900AD;
+    color: white;
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
+footer a:active {
+    color: #CCC;
+}
+
+/* Navigation */
+nav ul a {
+    background-color: #00C1C4;
+    color: black;
+}
+
+nav ul a:hover {
+    background-color: #009E9E;
+}

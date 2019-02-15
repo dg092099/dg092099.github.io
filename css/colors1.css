@@ -1,0 +1,58 @@
+@charset 'utf-8';
+/*
+    Color Scheme 1.
+    Refer Design/CS Candidate 1.png
+    Comments: Too neon. Darken colors.
+    
+    Name:           Dillon Geier
+    Date Authored:  02/08/2019
+    Last Updated:   02/08/2019
+*/
+
+/* ES */
+html {
+    background-color: #78777F;
+}
+
+/* Base */
+body {
+    background-color: white;
+}
+
+aside {
+    outline: thin solid #0026FF;
+}
+
+aside h2 {
+    border-bottom: thin solid #0026FF;
+}
+
+/* Header */
+header {
+    background-color: #0026FF;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #8700FF;
+    color: white;
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
+footer a:active {
+    color: #CCC;
+}
+
+/* Navigation */
+nav ul a {
+    background-color: #00FFFF;
+    color: black;
+}
+
+nav ul a:hover {
+    background-color: #00C1C4;
+}
