@@ -4,7 +4,7 @@
     
     Name:           Dillon Geier
     Date Authored:  02/05/2019
-    Last Updated:   02/05/2019
+    Last Updated:   02/26/2019
 */
 
 /* ES */
@@ -37,6 +37,15 @@ footer a:active {
 }
 
 /* Navigation */
+nav {
+    background-color: #CCC;
+}
+
+nav p {
+    background-color: #222;
+    color: white;
+}
+
 nav ul a {
     background-color: black;
     color: white;

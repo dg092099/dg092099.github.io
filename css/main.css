@@ -1,0 +1,223 @@
+@charset 'utf-8';
+@import url(colors2.css);
+
+/*
+    main.css
+    Main css file for the portfolio.
+    
+    Name:           Dillon Geier
+    Date Authored:  02/05/2019
+    Last Updated:   03/01/2019
+*/
+
+/* Body */
+html {
+    width: 100%;
+    height: 100%;
+
+    padding: 0px;
+}
+
+body {
+    width: 960px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+    padding: 0px;
+
+
+    /*font-family: "Mistral", sans-serif;*/
+    font-size: 1.1em;
+}
+
+body p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+body h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+/* Nav */
+nav {
+    padding: 0px;
+    margin: 8px;
+
+    float: left;
+    width: 15%;
+}
+
+nav p {
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 2px;
+
+    font-size: 1.2em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-indent: 0px;
+
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    width: 100%;
+}
+
+nav ul a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+
+    display: block;
+    width: 100%;
+}
+
+
+/* Header */
+header h1 {
+    text-align: center;
+    font-size: 1.8em;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+/* Aside */
+aside {
+    float: right;
+    width: 25%;
+    margin: 5px 10px 5px 5px;
+
+    border: thin solid black;
+    border-radius: 10px;
+
+    display: absolute;
+    left: 600px;
+    padding-top: 0px;
+}
+
+aside p {
+    margin-left: 5px;
+}
+
+.asideHeader {
+    text-align: center;
+    background-color: aqua;
+
+    display: block;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 0px;
+}
+
+/* Article */
+article {
+    padding-left: 7px;
+    padding-right: 7px;
+
+    line-height: 1.2em;
+}
+
+article p {
+    text-indent: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.7em;
+
+    width: 100%;
+    clear: both;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer address {
+    display: inline;
+}
+
+/* Misc. */
+img {
+    width: 25%;
+    height: auto;
+    float: right;
+    clear: both;
+    margin: 5px 9px 5px 10px;
+}
+
+article {
+    margin-top: 0px;
+}
+
+body > a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+ul {
+    list-style: square;
+}
+
+hr {
+    clear: both;
+}
+
+/* Table */
+table.home {
+    border-collapse: collapse;
+    border: thin solid black;
+
+    width: 50%;
+    margin: auto;
+}
+
+table.home th,
+table.home td {
+    border: thin solid black;
+    padding: 3px;
+}
+
+table.home thead tr {
+    background-color: lightblue;
+}
+
+table.home th {
+    color: purple;
+}
+
+table.home td {
+    color: darkblue;
+}

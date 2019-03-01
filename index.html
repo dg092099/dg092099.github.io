@@ -1,55 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8" />
-    <meta name="keywords" content="portfolio, Dillon, Geier, Dillon Geier, maintenance" />
+    <meta name="keywords" content="portfolio, Dillon Geier, home" />
     <meta name="author" content="Dillon Geier" />
-    <title>Under Construction</title>
+    <meta name="description" content="Dillon Geier's Portfolio" />
+
+    <title>Portfolio - Dillon Geier</title>
+
     <!--
-    Under Construction Placeholder Page
-
-    Due to the nature of this page. I am trying to make this 
-    as self contained as possible, so I can drop it almost anywhere,
-    without needing to fix the paths.
-
-    Name:           Dillon Geier
-    Date Authored:  02/05/2019
-    Last Updated:   02/05/2019
+    Experimenting with different layouts and color schemes. Will fully implement later.
     -->
-    <style>
-        html {
-            width: 100%;
-        }
-        body {
-            max-width: 960px;
-            min-width: 640px;
-            width: 95%;
-            margin: auto;
-            font-family: 'Times New Roman', Times, serif;
-        }
-        p {
-            font-size: 1.1em;
-        }
-        h1 {
-            background-color: #AAA;
-            padding: 3px;
-            display: block;
-            font-size: 2em;
-        }
-        article {
-            outline: 1px solid #CCC;
-        }
-        article p {
-            padding: 5px;
-        }
-    </style>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+    <!--
+        index.html
+        Home page for the portfolio.
+        
+        Name:           Dillon Geier
+        Date Authored:  02/05/2019
+        Last Updated:   03/01/2019
+    -->
 </head>
+
 <body>
-    <article>
-        <h1>Under Construction</h1>
-        <p>Thank you for visiting my portfolio, however the site is currently out of service. We are working to create a better webpage soon.</p>
-        <p>We estimate that the work will be done and the site will be published on <strong>Friday, March 1st, 2019.</strong></p>
-        <p>&mdash; Dillon Geier</p>
-    </article>
+    <header>
+        <h1 id="top">Dillon Geier Portfolio</h1>
+        <nav>
+            <p>Navigation</p>
+            <ul>
+                <li><a href="index.html" title="Home page">Home</a></li>
+                <li><a href="resume.html" title="Resume">Resume</a></li>
+                <li><a href="projects.html" title="Projects">Projects</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside>
+        <h2 class="asideHeader">Program Experience</h2>
+        <p class="asidetext">I have had experience with a large variety of programs in several areas. Some of these include:</p>
+        <ul class="asidetext">
+            <li><strong>Office Productivity Suites</strong></li>
+            <li>
+                Integrated Developers Environments
+                <ul>
+                    <li>Eclipse</li>
+                    <li>Visual Studio</li>
+                    <li>Intellij</li>
+                </ul>
+            </li>
+            <li>Windows OS</li>
+            <li>Ubuntu OS</li>
+        </ul>
+    </aside>
+
+    <section>
+        <article>
+            <h1>Welcome</h1>
+            <p>Hello, my name is Dillon Geier. I am a second semester student at Northcentral Technical College in the Software Development program. I graduated from Wausau West High School. I have taken classes in college teaching various programming languages such as C#, .NET, and T-SQL. In high school, I have taken classes teaching both Java and Python.</p>
+        </article>
+        <a href="resume.html"><img src="img/portrait.jpg" alt="Portrait of Dillon Geier" /></a>
+        <article>
+            <p>Some of my previous jobs include: Watching over different activity areas at a campground, pool operations at a campground, groundskeeping at the campground, and basic data entry at an accounting firm. I have volunteered with the Boy Scouts of America, Order of the Arrow, and the Fraternal Order of Eagles.</p>
+
+            <p>I have helped people troubleshoot simple computer problems, such as: transferring files to another computer, and virus removal. I have also written simple programs in Java, Python, and Windows Command Line to automate various processes.</p>
+        </article>
+        <article>
+            <table class="home" summary="The familiarity of programming langueges from most confident to least confident.">
+                <caption>Figure 1: Familiarity of Programming Languages</caption>
+                <thead>
+                    <tr>
+                        <th>Programming Language</th>
+                        <th>Percent of Programs I Wrote</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Java</td>
+                        <td>80%</td>
+                    </tr>
+                    <tr>
+                        <td>C#</td>
+                        <td>10%</td>
+                    </tr>
+                    <tr>
+                        <td>Lua</td>
+                        <td>5%</td>
+                    </tr>
+                    <tr>
+                        <td>Batch Script / Bash</td>
+                        <td>3%</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>2%</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">* Percentages are estimated.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </article>
+    </section>
+
+    <a href="#top" title="Return to top">Return to Top</a>
+
+    <footer>
+        Dillon Geier &mdash; <a href="mailto:dillongeier@gmail.com">Dillongeier@gmail.com</a> <a href="tel:+17155745713">715-574-5713</a>
+        <address>PO Box 1302, Wausau, WI 54402-1302 &mdash; <a href="https://www.linkedin.com/in/dillon-g-95866316b/">LinkedIn</a></address>
+    </footer>
 </body>
 </html>

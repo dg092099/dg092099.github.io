@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*
+    Reset CSS file.
+    
+    Name: Dillon Geier
+    Date Authored: 02/26/2019
+    Last Updated: 02/26/2019
+*/
+
+html, body, header, nav, aside, section, article, footer {
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+
+p, h1, h2, h3, h4, h5, h6, li, td, th {
+    color: black;
+    line-height: 1em;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+}
+
+table {
+    border-collapse: collapse;
+}

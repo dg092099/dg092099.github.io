@@ -6,7 +6,7 @@
     
     Name:           Dillon Geier
     Date Authored:  02/08/2019
-    Last Updated:   02/08/2019
+    Last Updated:   03/01/2019
 */
 
 /* ES */
@@ -17,11 +17,10 @@ html {
 /* Base */
 body {
     border: thin solid #3030db;
-    background-color: #DDD;
+    background-color: white;
 }
 
 aside {
-    outline: thin solid #3030db;
     background-color: white;
 }
 
@@ -38,10 +37,18 @@ header {
 /* Footer */
 footer {
     background-color: #5900AD;
+
+    background-image: linear-gradient(#5900AD 30%, #28004e);
+    background-image: -moz-linear-gradient(#5900AD 30%, #28004e);
+    background-image: -webkit-linear-gradient(#5900AD 30%, #28004e);
+    background-image: -o-linear-gradient(#5900AD 30%, #28004e);
+
     color: white;
+    border-top: 2px solid #24be00;
 }
 
-footer a:link, footer a:visited {
+footer a:link,
+footer a:visited {
     color: white;
 }
 
@@ -50,11 +57,33 @@ footer a:active {
 }
 
 /* Navigation */
+nav {
+    background-color: #00C1C4;
+    border: thin solid black;
+}
+
+nav p {
+    color: black;
+    background-color: aqua;
+
+    margin-top: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
 nav ul a {
     background-color: #00C1C4;
     color: black;
+
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 
 nav ul a:hover {
     background-color: #009E9E;
+}
+
+.asidetext {
+    font-size: 0.75em;
+    font-style: italic;
 }
